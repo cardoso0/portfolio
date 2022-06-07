@@ -1,10 +1,13 @@
+import * as S from './Style'
 import { Menu } from "../src/components/Menu/Menu"
 
 const App = () => {
 
   return (
     <div>
-      <Menu />
+      <S.Container>
+        <Menu />
+      </S.Container>
     </div>
   )
 }
