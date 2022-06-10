@@ -9,6 +9,7 @@ export const Home = () => {
       <p>Desenvolvedor Front-End</p>
       <button>LinkedIn</button>
       <button>Github</button>
+      <hr />
     </S.Main>
   )
 }
