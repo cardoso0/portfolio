@@ -3,6 +3,7 @@ import { Menu } from "../src/components/Menu/Menu"
 import { Home } from "../src/components/Home/Home"
 import { Sobre } from "../src/components/Sobre/Sobre"
 import { Projetos } from './components/Projetos/Projetos'
+import { Footer } from './components/Footer/Footer'
 
 const App = () => {
 
@@ -13,6 +14,7 @@ const App = () => {
         <Home />
         <Sobre />
         <Projetos />
+        <Footer />
       </S.Container>
     </div>
   )
