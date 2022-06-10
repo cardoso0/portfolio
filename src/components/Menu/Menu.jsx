@@ -1,5 +1,4 @@
 import * as S from './style'
-import linkedin from '../../img/linkedin.png'
 
 export const Menu = () => {
 
