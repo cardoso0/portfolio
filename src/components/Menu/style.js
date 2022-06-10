@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  background-color: #4d3e6b;
+  background-color: #121212;
   color: white;
 `
 
 export const Nav = styled.nav`
-  max-width: 90%;
+  // max-width: 95%;
   margin: 0 auto;
 
   @media (min-width: 768px) {
@@ -14,6 +14,22 @@ export const Nav = styled.nav`
     max-width: 90%;
     display: flex;
     justify-content: space-between;
+  }
+`
+
+export const Logo = styled.h1`
+  display: none;
+  list-style-type: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+    margin: auto 0;
+    justify-content: space-between;
+    width: 200px;
+
+    img {
+      width: 30px;
+    }
   }
 `
 
@@ -35,20 +51,4 @@ export const UlPages = styled.ul`
     }
   }
 
-`
-
-export const UlSocialMedias = styled.ul`
-  display: none;
-  list-style-type: none;
-
-  @media (min-width: 768px) {
-    display: flex;
-    margin: auto 0;
-    justify-content: space-between;
-    width: 200px;
-
-    img {
-      width: 30px;
-    }
-  }
 `
