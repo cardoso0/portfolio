@@ -3,6 +3,10 @@ import styled from 'styled-components'
 export const Container = styled.div`
   background-color: #121212;
   color: white;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
 `
 
 export const Nav = styled.nav`
