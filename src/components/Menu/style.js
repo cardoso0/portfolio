@@ -14,7 +14,7 @@ export const Nav = styled.nav`
 
   @media (min-width: 768px) {
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 70%;
     display: flex;
     justify-content: space-between;
   }
