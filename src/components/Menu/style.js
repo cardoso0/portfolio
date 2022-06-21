@@ -38,10 +38,10 @@ export const Logo = styled.h1`
 `
 
 export const UlPages = styled.ul`
-  margin: 0 auto;
+  margin: 0;
   display: flex;
   list-style-type: none;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1.2em 1em 1.2em 1em;
 
   @media (min-width: 768px) {
