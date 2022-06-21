@@ -10,12 +10,11 @@ export const Container = styled.div`
 `
 
 export const Nav = styled.nav`
-  // max-width: 95%;
   margin: 0 auto;
 
   @media (min-width: 768px) {
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 80%;
     display: flex;
     justify-content: space-between;
   }

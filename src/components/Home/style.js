@@ -5,6 +5,7 @@ export const Main = styled.main`
   background-color: #121212;
   color: white;
   text-align: center;
+  padding-bottom: 4em;
 
   button {
     color: white;
