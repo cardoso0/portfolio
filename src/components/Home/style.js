@@ -11,5 +11,6 @@ export const Main = styled.main`
     color: white;
     background-color: #151515;
     border: 1px solid blue;
+    margin-top: 1.5em;
   }
 `
