@@ -15,7 +15,8 @@ export const Projetos = () => {
           <p>De maneira simples, o desafio 52 semanas é uma técnica para poupar dinheiro mesmo ganhando pouco.</p>
           <p>Tecnologias usadas no projeto: HTML, CSS com Styled Components, React.</p>
           <button>
-            <img className='imgBtn' src={link} alt="link para acessar projeto" /> <p>Visualizar</p>
+            <img className='imgBtn' src={link} alt="link para acessar projeto" /> 
+            <a href="https://cardoso0.github.io/52-semanas-react/">Visualizar</a>
           </button>
         </S.Card>
         <S.Card>
@@ -24,7 +25,8 @@ export const Projetos = () => {
           <p>Adicione tarefas, marque como concluídas ou exclua. Essa é a nossa Lista de Tarefas.</p>
           <p>Tecnologias usadas no projeto: HTML, CSS com Styled Components, React.</p>
           <button>
-            <img className='imgBtn' src={link} alt="link para acessar projeto" /> <p>Visualizar</p>
+            <img className='imgBtn' src={link} alt="link para acessar projeto" />
+            <a href="https://cardoso0.github.io/todoList-react/">Visualizar</a>
           </button>
         </S.Card>
       </S.Main>

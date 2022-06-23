@@ -46,4 +46,10 @@ export const Card = styled.div`
     width: 20px;
     margin-right: 5px;
   }
+
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 1em 0.2em 1em 0;
+  }
 `
