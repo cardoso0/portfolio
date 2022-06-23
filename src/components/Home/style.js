@@ -8,9 +8,27 @@ export const Main = styled.main`
   padding-bottom: 4em;
 
   button {
-    color: white;
-    background-color: #151515;
     border: 1px solid blue;
-    margin-top: 1.5em;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    align-items: center;
+  }
+`
+
+export const Btn = styled.button`
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  align-items: center;
+  padding: 0.5em;
+  margin: 0 10px 0 10px;
+
+  a {
+    text-decoration: none;
+    color: white;
   }
 `
