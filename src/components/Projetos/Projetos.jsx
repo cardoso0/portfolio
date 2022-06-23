@@ -6,7 +6,7 @@ import link from '../../img/link.png'
 export const Projetos = () => {
 
   return (
-    <S.Bg>
+    <S.Bg id="projetos">
       <S.Main>
         <h1>Projetos</h1>
         <S.Card>

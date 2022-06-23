@@ -1,3 +1,4 @@
+import { Route, Routes } from 'react-router-dom'
 import * as S from './Style'
 import { Menu } from "../src/components/Menu/Menu"
 import { Home } from "../src/components/Home/Home"

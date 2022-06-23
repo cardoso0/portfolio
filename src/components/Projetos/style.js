@@ -8,7 +8,7 @@ export const Bg = styled.div`
 export const Main = styled.main`
   max-width: 80%;
   margin: 0 auto;
-  padding-top: 2em;
+  padding-top: 5em;
 
   h1 {
     margin-top: 0;

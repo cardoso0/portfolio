@@ -51,7 +51,7 @@ export const UlPages = styled.ul`
     li {
       margin: auto 0;
       text-transform: uppercase;
+      color: white;
     }
   }
-
 `

@@ -6,7 +6,7 @@ export const Bg = styled.div`
 
 export const Main = styled.main`
   color: white;
-  padding-top: 2em;
+  padding-top: 5em;
   padding-bottom: 4em;
   max-width: 80%;
   margin: 0 auto;

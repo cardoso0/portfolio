@@ -1,10 +1,9 @@
 import * as S from './style'
 
-
 export const Sobre = () => {
 
   return (
-    <S.Bg>
+    <S.Bg id="sobre">
       <S.Main>
         <h1>Sobre Mim</h1>
         <p>São Paulo - SP</p>
