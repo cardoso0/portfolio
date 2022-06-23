@@ -42,16 +42,16 @@ export const UlPages = styled.ul`
   list-style-type: none;
   justify-content: space-around;
   padding: 1.2em 1em 1.2em 1em;
+  
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
 
   @media (min-width: 768px) {
     margin: 0;
     width: 20em;
     justify-content: space-between;
-
-    li {
-      margin: auto 0;
-      text-transform: uppercase;
-      color: white;
-    }
   }
 `
